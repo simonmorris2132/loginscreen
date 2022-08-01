@@ -1,6 +1,6 @@
-import logo from './logo.svg';
-import './App.css';
+import React from 'react';
 import { useState } from 'react';
+import LoginForm from './components/LoginForm';
 
 function App() {
   
@@ -28,7 +28,7 @@ function App() {
           <button>Logout</button>
         </div>
       ) : (
-        
+        <LoginForm/>
       )}
     </div>
   );
